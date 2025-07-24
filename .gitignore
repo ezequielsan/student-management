@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# VSCode
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados temporários e arquivos de execução
+*.sqlite3
+*.db
+*.log
+*.tmp
+
+# Arquivos de dados locais (não versionar dados de produção)
+data/*.csv
+!data/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Outros
+*.bak
+*.swp
+*.swo
+
+# Ignore arquivos de credenciais
+.env
+.env.*
+
