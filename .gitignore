@@ -23,8 +23,8 @@ ENV/
 *.tmp
 
 # Arquivos de dados locais (não versionar dados de produção)
-data/*.csv
-!data/.gitkeep
+# data/*.csv
+# !data/.gitkeep
 
 # Sistema
 .DS_Store
